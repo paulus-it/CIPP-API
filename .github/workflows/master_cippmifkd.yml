@@ -23,7 +23,8 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'cippmifkd'
+          app-name: 'cipptmsus'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24A36AAA53ED40B391051D6F37C2E134 }}
+
